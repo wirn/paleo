@@ -3,7 +3,7 @@
   <h2>Vad kan jag äta?</h2>
 
   <form [formGroup]="searchForm">
-    <input type="text" formControlName="searchText" />
+    <input type="text" formControlName="searchText" autofocus />
   </form>
 
   <ul *ngIf="searchForm.value.searchText">
