@@ -1678,14 +1678,6 @@ export const ingredientsAllowed: Ingredient[] = [
     allowed: true,
   },
   {
-    id: 210,
-    name: 'Vitlök',
-    aip: false,
-    comment: '',
-    ingredientClass: null,
-    allowed: true,
-  },
-  {
     id: 211,
     name: 'Wasabi',
     aip: false,
